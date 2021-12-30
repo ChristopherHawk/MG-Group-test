@@ -1,0 +1,7 @@
+export const CATCH_ERRORS = 'CATCH_ERRORS'
+export const GET_ALL_USERS = 'GET_ALL_USERS'
+export const SHOW_NEW_USER = 'SHOW_NEW_USER'
+export const OPEN_MODAL = 'OPEN_MODAL'
+export const PUSH_INFO_MODAL = 'PUSH_INFO_MODAL'
+export const DETAILS_USER = 'DETAILS_USER'
+export const UPDATE_USER_INFO = 'UPDATE_USER_INFO'

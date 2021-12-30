@@ -1,0 +1,74 @@
+#divMaster{
+  padding: 30px;
+  margin-top: 50px;
+}
+
+/* NAV BAR */
+#logo{
+  border-radius: 50%;
+}
+#titleNav{
+  color: orangered;
+}
+/*HOME*/
+#Container{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+#cardUser{
+  margin: 5px;
+  width: 20rem;
+  height: 10rem;
+  justify-self: center;
+  align-self: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+#cardUser2{
+  margin: 5px;
+  width: 20rem;
+  height: 22rem;
+  justify-self: center;
+  align-self: center;
+  overflow: hidden;
+}
+
+
+/*User Details*/
+#Container2{
+  display: flex;
+  padding-top: 10rem;
+  justify-content: center;
+}
+
+#btnActions{
+  margin: 5px;
+}
+
+/* MEDIA QUERY*/
+
+@media screen and (max-width: 1417px) {
+  #Container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+@media screen and (max-width: 1000px) {
+  #Container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+@media screen and (max-width: 800px) {
+  #Container{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+}
