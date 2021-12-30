@@ -9,7 +9,7 @@
  * API Context
 
 *Nota: El funcionamiento del repositorio depende de las variables de entorno las cuales se han 
-insertado en el archivo `.env.example` en la carpeta del repositorio. Para que este funcione se le debe de elminiar la extensión `.example` quedando renombrado dela siguiente forma: `.env`.
+insertado en el archivo `.env.example` en la carpeta del repositorio. Para que este funcione se le debe de elminiar la extensión `.example` quedando renombrado de la siguiente forma: `.env`.
 
 
 ## ¿Cómo probar el proyecto?
